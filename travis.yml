@@ -1,7 +1,7 @@
-language: r
+language: python
 
-r:
- - release
+python:
+ - "2.7"
 
 services:
  - conda
