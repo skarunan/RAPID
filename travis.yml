@@ -1,0 +1,10 @@
+language: r
+
+services:
+ - conda
+
+install:
+ - conda install rapid
+
+script:
+ - rapidStats.sh --help
